@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link th:href="@{/styles.css}" rel="stylesheet"/>
+    <title>Weather-status</title>
+</head>
+<body>
+<header>
+    <nav class="nav main-nav">
+        <ul>
+            <li>
+                <a class="clickable" href="login"><strong>LOGIN</strong></a>
+            </li>
+            <li>
+                <a class="clickable" href="sign-up">
+                    <strong>SIGN UP</strong>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <h1 class="text main-name">Weather Situation</h1>
+</header>
+<section class="chosen-city">
+    <h2>[[${status.location.name}]]</h2>
+</section>
+</body>
+</html>

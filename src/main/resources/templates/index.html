@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link th:href="@{/styles.css}" rel="stylesheet"/>
+    <title>Welcome</title>
+</head>
+<body>
+<header>
+    <nav class="nav main-nav">
+        <ul>
+            <li>
+                <a class="clickable" href="login"><strong>LOGIN</strong></a>
+            </li>
+            <li>
+                <a class="clickable" href="sign-up">
+                    <strong>SIGN UP</strong>
+                </a>
+            </li>
+            <li>
+                <a class="clickable" href="home"><strong>HOME</strong></a>
+            </li>
+        </ul>
+    </nav>
+    <h1 class="text main-name">Weather Situation</h1>
+</header>
+<section class="content-section">
+    <h2 class="text section-header">About</h2>
+    <p class="text explain">
+        This page is a page for checking weather conditions in any city you
+        want.
+    </p>
+</section>
+<footer>
+    <h3 class="text">Weather Situation</h3>
+    <h4 class="text">Provided by : Shahryar karimi</h4>
+    <a th:href="@{/photo/Shahryar.jpeg}">
+        <img
+                class="Shahryar clickable"
+                th:src="@{/photo/Shahryar.jpeg}"
+                alt="Providers photo"
+        />
+    </a>
+    <h4 class="text">Contact us :</h4>
+    <div>
+        <ul class="contact-list">
+            <li class="text">
+                <a href="https://twitter.com/shah80ryar" target="_blank">
+                    <img
+                            class="logo clickable"
+                            th:src="@{/photo/logo/twitter.png}"
+                            alt="Twitter logo"
+                    />
+                </a>
+            </li>
+            <li class="text">
+                <a href="https://t.me/shahryarkarimi" target="_blank">
+                    <img
+                            class="logo clickable"
+                            th:src="@{/photo/logo/telegram.png}"
+                            alt="Telegram logo"
+                    />
+                </a>
+            </li>
+            <li class="text">
+                <a href="https://www.instagram.com/shah80ryar/" target="_blank">
+                    <img
+                            class="logo clickable"
+                            th:src="@{/photo/logo/instagram-logo.png}"
+                            alt="Instagram logo"
+                    />
+                </a>
+            </li>
+        </ul>
+        <div class="text phone-number">Phone number : +989038168087</div>
+    </div>
+</footer>
+</body>
+</html>

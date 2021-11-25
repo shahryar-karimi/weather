@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Sign up</title>
+    <link th:href="@{/styles.css}" rel="stylesheet"/>
+</head>
+<body>
+<section class="content-section login-section">
+    <h2 class="text sign-up">Sign up</h2>
+    <div>
+        <form action="#" th:action="@{/sign-up}" method="post" th:object="${user}">
+            <input th:class="input" th:field="*{username}"/>
+            <input th:class="input" th:field="*{password}"/>
+            <input th:class="button" type="submit">
+        </form>
+    </div>
+</section>
+</body>
+</html>

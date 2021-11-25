@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link th:href="@{/styles.css}" rel="stylesheet"/>
+    <title>Home</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a class="clickable" href="index"><strong>Logout</strong></a>
+      </nav>
+      <h1 class="text main-name">Weather Situation</h1>
+    </header>
+    <section class="content-section">
+      <div class="choose-city">
+        <span class="text larger-text">City :</span>
+        <span><input class="input" type="text" /></span>
+      </div>
+      <div>
+        <button class="button" role="button" >Show Response</button>
+      </div>
+    </section>
+  </body>
+</html>

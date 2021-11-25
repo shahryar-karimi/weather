@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.text {
+  color: rgb(128, 128, 128);
+}
+
+.clickable:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  background-image: url("photo/index/weather-header.jpg");
+  background-size: cover;
+}
+
+.nav ul {
+  margin: 0px;
+}
+
+.nav li {
+  display: inline;
+  padding: 0 5%;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 0.5em;
+  color: white;
+  text-decoration: none;
+}
+
+.nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+img.logo {
+  width: 64px;
+}
+
+img.Shahryar {
+  width: 128px;
+  border-radius: 50%;
+}
+
+header {
+  padding-bottom: 50px;
+}
+
+.main-name {
+  margin: 0;
+  font-size: 9em;
+}
+
+.content-section {
+  margin: 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.section-header {
+  font-size: 5em;
+}
+
+.explain {
+  font-size: 2em;
+}
+
+.phone-number {
+  color: rgb(255, 255, 255);
+  padding-bottom: 100px;
+}
+
+.login-section {
+  padding-top: 250px;
+  font-size: 2em;
+}
+
+.input {
+  block-size: 2em;
+}
+
+.login-section div {
+  padding-bottom: 1%;
+}
+
+.sign-up {
+  text-align: center;
+}
+
+.button {
+  padding: 0.5em 2em;
+  font-size: 1em;
+}
+
+.contact-list li {
+  display: inline;
+}
+
+.larger-text {
+  font-size: 2em;
+}
+
+.choose-city {
+  padding-bottom: 6px;
+  padding-right: 48px;
+}
